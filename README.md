@@ -16,3 +16,4 @@ This application manages users with CRUD operations. It displays users in a clea
 ## Key Learnings and Takeaways 🧠
 - I learned about basic data sanitation and validation on the client side.
 - With good practice and adhering to web standards, the frontend will have no problem integrating to a server in terms of security and data anomalies.
+- A significant challenge is the presentation of data and intuitiveness of the system. Overcoming it lead to a better usability of the application.
