@@ -1,6 +1,8 @@
 # React Exercise 1 - User Management
 ----------
 
+Jan Carlo L. Cabrera UPLB
+
 ## App Description
 ----------
 This application manages users with CRUD operations. It displays users in a clean table with each row having its own edit and delete operations. This app also implements data persistence using local storage.
