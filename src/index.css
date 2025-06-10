@@ -1,0 +1,175 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+input{
+  /* max-width: 400px; */
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+h1{
+  color: gold;
+}
+
+h2{
+  font-size: 2em;
+  margin: 0.5em 0;
+  color: gold;
+}
+
+
+input{
+  color: white;
+  border: 1px solid gold;
+  margin: 20px;
+}
+
+select {
+  color: white;
+  border: 1px solid gold;
+  margin: 20px;
+  padding: 0.5em;
+  background-color: #242424;
+} 
+
+table {
+  /* width: 80%; */
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #1a1a1a;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 1em;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+
+th {
+  background-color: #242424;
+  color: gold;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #333333;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.toggle-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.user-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* border: red 1px solid; */
+}
+
+.submit-button {
+  margin-top: 10px;
+  /* background-color: #646cff; */
+  color: gold;
+  border: 1px solid gold;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  color: rgb(154, 154, 29);
+  border-color: rgb(154, 154, 29);
+  background-color: transparent;
+}
+
+.toggle-button {
+  
+  margin-top: 10px;
+  color: gold;
+  border: 1px solid gold;
+  background-color: transparent;
+  cursor: pointer;
+}
